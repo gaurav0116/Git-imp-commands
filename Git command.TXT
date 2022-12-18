@@ -1,0 +1,65 @@
+	PUSH CODE ON GITHUB
+	
+Step 1: git init
+
+step 2: git add .
+
+step 3: git commit -m "first commit"
+
+{ -> git branch (for check branch) }
+
+step 4: git remote add origin <url>
+
+step 5: git push -u origin master
+
+-----------------------------------
+
+	PULL CODE FROM GITHUB
+
+step 1: git clone <repo_url>
+
+step 2: npm i && npm run
+
+-----------------------------------
+
+	CREATE NEW BRANCH IN REPO
+
+step 1: git branch (for check how many branch is exist)
+
+step 2: git branch <branch name>
+
+----------------------------------
+
+	SWITCH ON BRANCH TO ANOTHER BRANCH
+
+step 1: git checkout <branch name>
+
+----------------------------------
+
+	PUSH CODE IN ANOTHER BRANCH
+
+step 1: move on the this branch first 
+
+step 2: git init
+
+step 3: git add .
+
+step 4: git commit -m "commit message"
+
+step 5: git push origin master:<Branch_name>
+
+----------------------------------
+
+	PUSH CHANGES IN EXISTING REPO
+	
+step 1 : git add .
+
+step 2 : git commit -m "<changes>"
+
+step 3 : git push -u -f origin <BRANCH_NAME>
+
+----------------------------------
+
+	DISCONNECT REMOTE REPO WITH LOCAL REPO
+
+step : git remote remove origin
